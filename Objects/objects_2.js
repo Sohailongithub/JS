@@ -58,4 +58,26 @@ let user = [
 // console.log(Object.values(user));
 // console.log(Object.entries(user));
 
-console.log(obj1.hasOwnProperty('sphix'));
+// console.log(obj1.hasOwnProperty('sphix'));
+
+let eventCompany = [
+    {
+    companyName: "Seventy emg",
+    est: 2005,
+    numberOfEmployees: 100-2500,
+    address: {flat: 702, wing: 'D', Area: "Mumbai"},
+    email: "seventy@emg.com",
+    },
+    {
+        companyName: "green emg",
+    est: 2006,
+    numberOfEmployees: 100-500,
+    address: {flat: 7, wing: 'F', Area: "Delhi"},
+    email: "greengifts@emg.com",
+    }
+]
+
+// console.log(eventCompany);
+console.log(eventCompany[0].companyName);
+console.log(eventCompany[1].companyName);
+// console.log(eventCompany.est);
