@@ -1,6 +1,7 @@
 function sayMyName() {
+    console.log("Hello World");
     return "sohail"
-    console.log("HEllo");
 }
+
 
 sayMyName();
