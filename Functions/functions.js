@@ -41,4 +41,32 @@ let getClarity = () => {
     }
 }
 
-console.log(getClarity("Yess"));
+// console.log(getClarity("Yess"));
+
+function calculateCartPrice (...num1) {
+    return num1
+}
+
+// console.log(calculateCartPrice(200, 500, 1500, 5000));
+
+let user = {
+    name: "Sohail",
+    age: 23
+}
+
+function handleObject (anyObject) {
+    return `Hi I'm ${anyObject.name} my age is ${anyObject.age}`
+}
+
+// console.log(handleObject(user));
+
+
+// Array initialization
+const myNewArray = [200, 500, 1500, 5000];
+
+//function declarations 
+function returnThiredValue (getArray) {
+    return getArray
+}
+
+console.log(returnThiredValue(myNewArray[2]));
