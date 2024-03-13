@@ -1,0 +1,51 @@
+****************JavaScript Execution Context*******************
+
+1) {} => Global Execution Context is stored in " this " variable
+In browser " this " has window object.  
+All this happens in a thread. Single Thread because JS is a Single Threaded Language
+
+There are two type of Execution Context
+1) Global Execution Context 
+2) Function Execution Context
+// There is one more Eval Execution Context its property is a Global Execution Context
+
+*************How it Execute************
+1) Memory creation phase / creation phase
+2) Execute Phase 
+
+* In Memory Creation phase all the variables and functions, and so on alocate a space in memory 
+
+***Code Example***
+let val1 = 10
+let val2 = 5
+
+function addNum(num1, num2){
+    let total = num1 + num2 
+    return total
+}
+
+let result1 = addNum(val1, val2)
+let result2 = addNum(10, 2)
+
+********************************************
+
+let's see how it executes 
+
+1) A global execution/environment is created and alocate in a  " this " variable 
+
+2) Memory creation phase 
+ALl the variable is stored and in this phase 
+so in the above code the first thing will come in is 
+val1 is stored in memory 
+val1 =  undefined (because its not defined yet) similarly all the variables stores undefined initally
+
+addnum =  is a function so it stores in memory as defination
+
+In execution phase the variable will store values 
+so in val1 it will change from undefined to the value 
+val1 = undefined => val1 = 10
+
+To execute functions 
+
+It creates a new a execution context as it has definations in memory now it will create a new execution context.
+ 
