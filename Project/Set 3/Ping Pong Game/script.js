@@ -12,7 +12,7 @@ window.onload = function() {
     const ballRadius = 10;
     let ballX = canvas.width / 2;
     let ballY = canvas.height / 2;
-    let ballSpeedX = 5;
+    let ballSpeedX = 4;
     let ballSpeedY = 3;
 
     let playerScore = 0;
