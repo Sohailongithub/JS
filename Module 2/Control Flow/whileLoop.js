@@ -29,7 +29,25 @@ let bikeModel = ['hero', 'KTM', 'TVS'];
 let i = 0;
 
 while (i < bikeModel.length) {
-    console.log(`Bike Model of ${bikeModel[i]}`);
+    console.log(`Bike Model  ${bikeModel[i]}`);
     i++
 }
 
+let fruit = ["apple","mango","banana"];
+let item = 0;
+
+while (item < fruit.length){
+    console.log(`${fruit[item]} is a fruit`);
+    item++
+}
+
+num = [1,2,3,4,5];
+sqNum = []
+
+
+
+for (let i = 0; i < num.length; i++){
+    sqNum.push(num[i] * num[i])
+};
+
+console.log(sqNum);
